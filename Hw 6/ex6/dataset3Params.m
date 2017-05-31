@@ -37,7 +37,6 @@ for i = 1:length(steps)
   end
 end
 
-errors;
 minError = min(errors(:));
 [i,j] = find(errors==minError);
 C = steps(i);
